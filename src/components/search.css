@@ -1,0 +1,57 @@
+:root {
+  font-family: "Uncial Antiqua", cursive;
+  color: rgb(250, 243, 47);
+  text-shadow: 1px 2px 4px black;
+  font-weight: normal;
+  font-size: 30px;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      0.8turn,
+      rgb(19, 30, 80),
+      rgb(91, 106, 171),
+      rgb(19, 30, 80)
+    )
+    fixed no-repeat;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search-container {
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  background-color: rgb(238, 243, 241);
+  outline: none;
+  height: 35px;
+  width: 300px;
+  border-radius: 15px;
+  border: none;
+  padding: 0 15px;
+  margin: 20px 0px 30px 100px;
+}
+
+.class-list {
+  line-height: 1.5;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.classes {
+  cursor: pointer;
+}
+
+.classes:hover {
+  cursor: pointer;
+}
+
+.class-img {
+  padding: 30px;
+}
